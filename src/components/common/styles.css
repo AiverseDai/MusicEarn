@@ -1,0 +1,18 @@
+#section1 {
+  color: #fff;
+}
+/* 
+button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: -1;
+} */
+
+.fp-watermark {
+  display: none;
+}
+
+#fp-nav.fp-right {
+  right: 5vw;
+}
