@@ -49,7 +49,6 @@ ElevationScroll.propTypes = {
 
 function CreateNFT(props) {
   const connectWallet = () => {};
-  const [walletAddress, setWalletAddress] = React.useState(null);
 
   const [collectioname, setcollectioname] = React.useState("");
   const [symbol, setsymbol] = React.useState("");
@@ -212,8 +211,8 @@ function CreateNFT(props) {
             </Box>
             <TabPanel value="1">
               <Tab1
-                walletAddress={walletAddress}
-                setWalletAddress={setWalletAddress}
+                walletAddress={props.walletAddress}
+                setWalletAddress={props.setWalletAddress}
                 setcollectioname={setcollectioname}
                 collectioname={collectioname}
                 symbol={symbol}

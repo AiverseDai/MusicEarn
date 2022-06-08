@@ -78,25 +78,25 @@ function Slide6() {
               <div className="p-4 flex flex-wrap">
                 <button
                   class="bg-[#FC74D0] text-white text-sm
-                 font-bold py-2 px-6  m-4 font-400 rounded-lg my-2 w-[170px]"
+                 font-bold py-2 px-6  m-4 font-400 rounded-lg my-2 w-[140px]"
                 >
                   Jobs
                 </button>
                 <button
                   class="bg-[#FC74D0] text-white text-sm
-                 font-bold py-2 px-6  m-4 font-400 rounded-lg my-2 w-[170px]"
+                 font-bold py-2 px-6  m-4 font-400 rounded-lg my-2 w-[140px]"
                 >
                   FAQs
                 </button>
                 <button
                   class="bg-[#FC74D0] text-white text-sm
-                 font-bold py-2 px-6  m-4 font-400 rounded-lg my-2 w-[170px]"
+                 font-bold py-2 px-6  m-4 font-400 rounded-lg my-2 w-[140px]"
                 >
                   Terms
                 </button>
                 <button
                   class="bg-[#FC74D0] text-white text-sm
-                 font-bold py-2 px-6  m-4 font-400 rounded-lg my-2 w-[170px]"
+                 font-bold py-2 px-6  m-4 font-400 rounded-lg my-2 w-[140px]"
                 >
                   Privacy
                 </button>

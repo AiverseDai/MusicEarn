@@ -25,10 +25,10 @@ const FullpageWrapper = () => (
     navigation
     navigationTooltips={anchors}
     onLeave={(origin, destination, direction) => {
-      console.log("onLeave event", { origin, destination, direction });
+      // console.log("onLeave event", { origin, destination, direction });
     }}
     render={({ state, fullpageApi }) => {
-      console.log("render prop change", state, fullpageApi); // eslint-disable-line no-console
+      // console.log("render prop change", state, fullpageApi); // eslint-disable-line no-console
 
       return (
         <div>

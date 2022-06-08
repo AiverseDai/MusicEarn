@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button } from "@mui/material";
+import { Button, Typography } from "@mui/material";
 import Web3Modal from "web3modal";
 import TextField from "@mui/material/TextField";
 import { FileUploader } from "react-drag-drop-files";
@@ -58,9 +58,15 @@ function Tab1({
   };
   return (
     <div>
-      <Button color="success" variant="outlined" onClick={connectWallet}>
-        Connect to wallet
-      </Button>
+      {walletAddress ? (
+        <>
+          <Typography>Wallet connected. Address : {walletAddress}</Typography>
+        </>
+      ) : (
+        <Button color="success" variant="outlined" onClick={connectWallet}>
+          Connect to wallet
+        </Button>
+      )}
       <br />
       <br />
       <form>

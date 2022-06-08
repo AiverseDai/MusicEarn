@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Calendar from "../assets/Calendar.svg";
 import Projects from "../assets/Projects.svg";
 import NFTs from "../assets/mint.svg";
+import "aos/dist/aos.css";
+import AOS from "aos";
 
 function Slide2() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  });
   return (
     <div className="w-full h-full">
       <div className="p-4">
