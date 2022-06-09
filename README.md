@@ -1,1 +1,1 @@
-# MusicAPK
+# MusicEarn
