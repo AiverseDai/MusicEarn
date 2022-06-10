@@ -1,14 +1,14 @@
 import React from "react";
 import ReactFullpage from "@fullpage/react-fullpage";
 
-import "./styles.css";
+import "../../css/styles.css";
 import CommonStyle from "./CommonStyle";
-import Slide1 from "../Slide1";
-import Slide2 from "../Slide2";
-import Slide3 from "../Slide3";
-import Slide4 from "../Slide4";
-import Slide5 from "../Slide5";
-import Slide6 from "../Slide6";
+import Slide1 from "../laptop/Slide1";
+import Slide2 from "../laptop/Slide2";
+import Slide3 from "../laptop/Slide3";
+import Slide4 from "../laptop/Slide4";
+import Slide5 from "../laptop/Slide5";
+import Slide6 from "../laptop/Slide6";
 
 const anchors = [
   "firstSlide",
