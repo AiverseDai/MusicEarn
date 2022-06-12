@@ -5,22 +5,35 @@ import discord from "../../assets/discord.svg";
 import tele from "../../assets/tele.svg";
 import ins from "../../assets/ins.svg";
 import ball from "../../assets/ball.svg";
+import Dot from "../../assets/dot.svg";
+import Mask1 from "../../assets/Mask1.png";
 
 function Fifthslide() {
   return (
     <div
       className="w-full h-[100vh] font-jost relative overflow-hidden"
-      // style={{
-      //   background: "linear-gradient(135deg, #81FFEF 0%, #F067B4 100%)",
-      // }}
+      style={
+        {
+          // background: `url(${Mask1})`,
+          // backgroundSize: "100vw 50vh",
+          // backgroundPosition: "center center",
+        }
+      }
     >
+      <div
+        className="absolute h-[60vh] top-[16vh] right-0 w-[100vw]"
+        style={{
+          background: `url(${Mask1})`,
+          backgroundSize: "100vw 100vh",
+        }}
+      ></div>
       <div className="pt-[8vh] mx-4 text-white">
         {/* <h1 className="text-center text-4xl font-bold text-black">
           Join the community
         </h1> */}
         <br />
         <div
-          className="h-[26vh] flex flex-wrap rounded-xl justify-center p-6"
+          className="h-[20vh] flex flex-wrap rounded-xl justify-center p-4 relative"
           style={{
             boxShadow: "-7.7541px 37.6824px 108.557px rgba(126, 123, 160, 0.2)",
             backdropFilter: "blur(10px)",
@@ -28,16 +41,19 @@ function Fifthslide() {
               "linear-gradient(190.57deg, rgba(255, 255, 255, 0.56) 19.25%, rgba(248, 248, 255, 0.71) 54.39%, rgba(255, 255, 255, 0.59) 90.02%)",
           }}
         >
-          <img
+          <div className="absolute right-[-10px] top-[-10px]">
+            <img src={Dot} alt="" className="w-[50px] h-[50px]" />
+          </div>
+          {/* <img
             src={discord}
             alt=""
             srcset=""
             className="p-3 w-[70px] my-auto"
-          />
-          <img src={tele} alt="" srcset="" className="p-3 w-[70px] my-auto" />
-          <img src={twi} alt="" srcset="" className="p-3 w-[70px] my-auto" />
-          <img src={ins} alt="" srcset="" className="p-3 w-[70px] my-auto" />
-          <img src={fac} alt="" srcset="" className="p-3 w-[70px] my-auto" />
+          /> */}
+          <img src={tele} alt="" srcset="" className="p-3 w-[120px] my-auto" />
+          <img src={twi} alt="" srcset="" className="p-3 w-[120px] my-auto" />
+          {/* <img src={ins} alt="" srcset="" className="p-3 w-[70px] my-auto" /> */}
+          {/* <img src={fac} alt="" srcset="" className="p-3 w-[70px] my-auto" /> */}
         </div>
 
         <h1 className="text-center mt-[6vh] text-[2.59rem] font-bold text-white">

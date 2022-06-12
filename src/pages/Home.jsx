@@ -4,6 +4,7 @@ import FullpageWrapper from "../components/common/Wrapper";
 import logo from "../assets/logo.svg";
 import fb from "../assets/fb.svg";
 import insta from "../assets/insta.svg";
+import Mask1 from "../assets/Mask1.png";
 import twitter from "../assets/twitter.svg";
 import useWindowDimensions from "../hooks/useWindowDimensions";
 import Firstslide from "../components/mobile/Firstslide";
@@ -34,8 +35,15 @@ function Home({ walletAddress, setWalletAddress }) {
             <Secondslide />
             <Sixthslide />
             <Thirdslide />
-            <Fourthslide />
-            <Fifthslide />
+            <div
+            // style={{
+            //   background: `url(${Mask1})`,
+            //   backgroundSize: "100vw 100vh",
+            // }}
+            >
+              <Fourthslide />
+              <Fifthslide />
+            </div>
           </div>
           <div className={`fixed top-[2vh] left-[2vh]`}>
             <img src={logo} alt="" srcset="" className="w-[40px]" />

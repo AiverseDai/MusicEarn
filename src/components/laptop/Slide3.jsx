@@ -1,5 +1,5 @@
 import React from "react";
-import kudo1 from "../../assets/kudo1.svg";
+import kudo1 from "../../assets/kudo2.svg";
 
 function Slide3() {
   return (
@@ -9,6 +9,7 @@ function Slide3() {
           <img
             src={kudo1}
             alt=""
+            style={{ transform: "scale(1.3)" }}
             className="mx-4 max-h-[60vh] my-auto pb-[2vh] rotatecircle"
           />
         </div>

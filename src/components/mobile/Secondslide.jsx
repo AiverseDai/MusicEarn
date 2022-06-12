@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import Calendar from "../../assets/Calendar.svg";
 import Projects from "../../assets/Projects.svg";
 import NFTs from "../../assets/mint.svg";
+import Mask1 from "../../assets/Mask1.png";
+import Another from "../../assets/Another.svg";
+import A from "../../assets/A.svg";
 
 function Secondslide() {
   const slides = [
@@ -40,13 +43,20 @@ function Secondslide() {
   const [index, setIndex] = useState(0);
   return (
     <div
-      className="w-full h-[100vh] text-white"
-      // style={{
-      //   background: "linear-gradient(135deg, #81FFEF 0%, #F067B4 100%)",
-      // }}
+      className="w-full h-[100vh] text-white relative"
+      style={{
+        background: `url(${Mask1})`,
+        backgroundSize: "100vw 100vh",
+      }}
     >
+      <div className="absolute bottom-[-3vh] left-[10vw]">
+        <img src={Another} alt="" srcset="" className="w-[100px] h-[100px]" />
+      </div>
+      <div className="absolute bottom-[4vh] right-[10vw]">
+        <img src={A} alt="" srcset="" className="w-[100px] h-[100px]" />
+      </div>
       <div className="max-h-[80vh] font-jost">
-        <h1 className="sm:text-5xl text-4xl pt-[5vh] tracking-wider mx-10 leading-[130%] font-[900]">
+        <h1 className="sm:text-5xl text-4xl pt-[10vh] tracking-wider mx-10 leading-[130%] font-[900]">
           Why <span className="text-[#FC74D0]">KudosZone</span> is Better Than
           Others
         </h1>
