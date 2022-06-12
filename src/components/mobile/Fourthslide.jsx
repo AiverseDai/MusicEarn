@@ -1,32 +1,32 @@
 import React from "react";
 import Next from "../../assets/Next.svg";
 import Barchart from "../../assets/Barchart.svg";
-import Security from "../../assets/Security.svg";
+import Security from "../../assets/Rec.svg";
 function Fourthslide() {
   return (
     <div
-      className="h-[100vh] w-full"
+      className="min-h-[100vh] w-full"
       // style={{
       //   background: "linear-gradient(135deg, #81FFEF 0%, #F067B4 100%)",
       // }}
     >
       <div className="max-h-[80vh] font-jost text-white">
-        <h1 className="sm:text-4xl pt-[10vh] text-[2rem] tracking-wider mx-10 leading-[130%] font-[900] text-center">
-          Why We Are Better Than Others
+        <h1 className="sm:text-5xl text-4xl pt-[10vh] tracking-wider mx-10 leading-[130%] font-[900] text-left">
+          <span className="text-[#FC74D0]">KudosZone</span> Tokenomics
         </h1>
         <br />
         <br />
         <br />
-        <div className="h-[50vh] w-full relative">
+        <div className="w-[84vw] h-full mx-auto relative">
           <div
-            className="w-full absolute bottom-2 z-0"
+            className="w-[100vw] ml-[-8vw] absolute bottom-2 z-0 overflow-hidden"
             // style={{ filter: "blur(20px)" }}
           >
             <img
               src={Security}
               alt=""
               srcset=""
-              className="w-[60vw]  mx-auto"
+              className="w-[100vw] mx-auto"
             />
           </div>
           <div className="absolute top-[-4vh] max-h-[25vh] w-full z-[100000]">
@@ -35,7 +35,7 @@ function Fourthslide() {
                 src={Barchart}
                 alt=""
                 srcset=""
-                className="mx-auto max-h-[35vh] z-[1000000]"
+                className="mx-auto max-h-[65vh] z-[1000000]"
                 // style={{ backdropFilter: "blur(50px)" }}
 
                 //   style={{ transform: "scale(1.1)" }}
@@ -43,7 +43,7 @@ function Fourthslide() {
             </div>
           </div>
           <div
-            className="flex flex-col mx-[20vw] absolute bottom-0 w-[60vw] z-[100000]"
+            className="flex flex-col absolute bottom-[10vh] w-[80vw] z-[100000]"
             // style={{ backdropFilter: "blur(50px)" }}
           >
             <div className="flex my-4 justify-between">

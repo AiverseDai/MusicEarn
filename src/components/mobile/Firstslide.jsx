@@ -1,8 +1,10 @@
 import React from "react";
-import sand from "../../assets/sand.svg";
-import ppl from "../../assets/ppl.svg";
+import sand from "../../assets/Exclude.svg";
+import ppl from "../../assets/Toffe.svg";
 import Web3 from "web3/dist/web3.min.js";
 import Web3Modal from "web3modal";
+import Path from "../../assets/Path.svg";
+import Sv from "../../assets/Sv.png";
 
 function Firstslide({ setWalletAddress, walletAddress }) {
   const providerOptions = {
@@ -41,49 +43,56 @@ function Firstslide({ setWalletAddress, walletAddress }) {
     >
       <div className="pt-2 relative">
         <img
-          src={ppl}
+          src={Sv}
           alt=""
           srcset=""
-          className="max-h-[30vh] w-auto mx-auto"
+          className="max-h-[50vh] w-[80vw] mx-auto"
         />
-        <img
-          src={sand}
+
+        {/* <img
+          src={Sv}
           alt=""
           srcset=""
-          className="absolute top-[10vh] left-[15vw] max-h-[15vh] w-auto mx-auto"
-        />
-      </div>
-      <div className="text-white font-jost">
-        <h1 className="sm:text-4xl text-3xl tracking-wider mx-4 font-[900] text-center">
-          Buy, Sell And Stake Your NFTs
-        </h1>
-        <br />
-        <p className="text-lg font-[600] mx-4 text-center tracking-wide">
-          One Place Zone for All your Nft activity with a variety of products.
-          Buy, create, sell, lend, staking, earn, insurance, nft gift card, nft
-          bridge and more.
-        </p>
-        <br />
-        <div className="flex flex-col mx-10">
-          <button
-            class="bg-[#FC74D0] text-white text-[16px]
-                  py-2 my-2 px-6  font-400 rounded-lg w-[140px] mx-auto"
-            onClick={connectWallet}
-          >
-            {walletAddress
-              ? `${walletAddress.slice(0, 6)}...${walletAddress.slice(
-                  walletAddress.length - 5,
-                  walletAddress.length
-                )}`
-              : "Connect"}
-          </button>
-          {/* <br /> */}
-          <button
-            class="border-2 border-[rgba(255, 255, 255, 0.5)] text-white 
-                 py-2 my-2 px-6 text-[16px] font-400 rounded-lg w-[140px] mx-auto"
-          >
-            Whitepaper
-          </button>
+          className="absolute top-[-1vh] right-[5vw] max-h-[15vh] w-auto mx-auto"
+        /> */}
+        <div className="text-white font-jost absolute top-[25vh]">
+          <h1 className="sm:text-[3.59rem] text-[2.59rem] leading-[120%] tracking-wider mx-8 font-[700]">
+            Buy, Sell <br />
+            And Stake Your NFTs
+          </h1>
+          <br />
+          <p className="text-lg font-[500] mx-8 tracking-wide">
+            One Place Zone for All your Nft activity with a variety of products.
+            Buy, create, sell, lend, staking, earn, insurance, nft gift card,
+            nft bridge and more.
+          </p>
+          <br />
+          <div className="flex flex-col mx-10">
+            {/* <button
+              class="bg-[#FC74D0] text-white text-[20px]
+                  py-2 my-2 px-6  font-400 rounded-lg w-[180px] mx-auto"
+              onClick={connectWallet}
+            >
+              {walletAddress
+                ? `${walletAddress.slice(0, 6)}...${walletAddress.slice(
+                    walletAddress.length - 5,
+                    walletAddress.length
+                  )}`
+                : "Connect"}
+            </button> */}
+            {/* <br /> */}
+            <button
+              class="text-white 
+                 py-2 my-2 px-6 text-[20px] font-400 rounded-lg w-[180px] mx-auto border-b-8 border-[#3E2BB7]"
+              style={{
+                background:
+                  "linear-gradient(95.71deg, rgba(255, 188, 204, 0.7) 2.77%, rgba(96, 107, 255, 0.231) 99.19%)",
+                borderRadius: "25px",
+              }}
+            >
+              Whitepaper
+            </button>
+          </div>
         </div>
       </div>
     </div>

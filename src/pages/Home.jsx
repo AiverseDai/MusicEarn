@@ -24,7 +24,7 @@ function Home({ walletAddress, setWalletAddress }) {
           <div
             className="w-full min-h-[100vh]"
             style={{
-              background: "linear-gradient(135deg, #81FFEF 0%, #F067B4 100%)",
+              background: "linear-gradient(270.9deg, #4E41CB 0%, #C694C9 100%)",
             }}
           >
             <Firstslide

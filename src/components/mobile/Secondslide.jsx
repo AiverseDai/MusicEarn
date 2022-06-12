@@ -46,15 +46,16 @@ function Secondslide() {
       // }}
     >
       <div className="max-h-[80vh] font-jost">
-        <h1 className="sm:text-4xl pt-[10vh] text-[2rem] tracking-wider mx-10 leading-[130%] font-[900] text-center">
-          Why We Are Better Than Others
+        <h1 className="sm:text-5xl text-4xl pt-[5vh] tracking-wider mx-10 leading-[130%] font-[900]">
+          Why <span className="text-[#FC74D0]">KudosZone</span> is Better Than
+          Others
         </h1>
         <br />
         <br />
         {
           <>
             <div
-              className="card mx-10 h-[380px] w-auto border-2 rounded-2xl bg-white relative"
+              className="card mx-10 h-[350px] w-auto border-2 rounded-2xl bg-white relative"
               style={{ boxShadow: "0px 15px 50px rgba(230, 116, 185, 0.08)" }}
             >
               <img

@@ -1,5 +1,6 @@
 import React from "react";
 import Noise from "../../assets/Noise.svg";
+import Noise1 from "../../assets/Noise1.svg";
 
 function Thirdslide() {
   return (
@@ -10,13 +11,28 @@ function Thirdslide() {
       // }}
     >
       <div className="max-h-[80vh] font-jost text-white">
-        <h1 className="sm:text-4xl pt-[10vh] text-[2rem] tracking-wider mx-10 leading-[130%] font-[900] text-center">
+        <h1 className="sm:text-5xl text-4xl pt-[6vh] tracking-wider mx-10 leading-[130%] font-[900] text-left">
           <span className="text-[#FC74D0]">KudosZone</span> Token Usage
         </h1>
         <br />
-        <br />
-        <div className="h-[50vh] w-full">
-          <img src={Noise} alt="" srcset="" className="w-full h-full" />
+        <div className="w-[90vw] h-auto mx-auto relative">
+          <img
+            src={Noise}
+            alt=""
+            srcset=""
+            className="w-[90vw] h-full"
+            style={{ transform: "scaleY(0.9)" }}
+          />
+          <img
+            src={Noise1}
+            alt=""
+            srcset=""
+            className="w-full h-full absolute top-0"
+            style={{
+              // background: "rgba(255, 255, 255, 0.2",
+              backdropFilter: "blur(10px)",
+            }}
+          />
         </div>
       </div>
     </div>
