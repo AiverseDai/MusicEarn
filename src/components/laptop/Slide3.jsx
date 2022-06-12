@@ -9,7 +9,7 @@ function Slide3() {
           <img
             src={kudo1}
             alt=""
-            className="mx-4 max-h-[60vh] my-auto pb-[2vh]"
+            className="mx-4 max-h-[60vh] my-auto pb-[2vh] rotatecircle"
           />
         </div>
         <div className="mt-10 w-3/5 pr-[10vw]">

@@ -14,7 +14,7 @@ function Slide5() {
             src={kudo1}
             alt=""
             style={{ transform: "scale(1.3)" }}
-            className="mx-4 max-h-[60vh] my-auto pb-[2vh]"
+            className="mx-4 max-h-[60vh] my-auto pb-[2vh] rotatecircle"
           />
         </div>
         <div className="mt-16 w-3/5 pr-[10vw]">
