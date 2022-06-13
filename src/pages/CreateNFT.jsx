@@ -6,6 +6,7 @@ import Typography from "@mui/material/Typography";
 import CssBaseline from "@mui/material/CssBaseline";
 import useScrollTrigger from "@mui/material/useScrollTrigger";
 import Box from "@mui/material/Box";
+import logo from "../assets/logo.svg";
 import IconButton from "@mui/material/IconButton";
 import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -63,6 +64,7 @@ function CreateNFT(props) {
   };
 
   const [value, setValue] = React.useState("1");
+  const [price, setprice] = React.useState(10);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -77,13 +79,13 @@ function CreateNFT(props) {
       <ElevationScroll {...props}>
         <AppBar>
           <Toolbar>
-            <AdbIcon
+            {/* <AdbIcon
               sx={{
                 display: { xs: "none", md: "flex" },
                 ml: "10vw",
                 mr: 1,
               }}
-            />
+            /> */}
             <Typography
               variant="h6"
               noWrap
@@ -91,6 +93,8 @@ function CreateNFT(props) {
               href="/"
               sx={{
                 mr: 2,
+                py: 2,
+                ml: "10vw",
                 display: { xs: "none", md: "flex" },
                 fontFamily: "monospace",
                 fontWeight: 700,
@@ -99,9 +103,8 @@ function CreateNFT(props) {
                 textDecoration: "none",
               }}
             >
-              LOGO
+              <img src={logo} alt="" srcset="" />
             </Typography>
-            <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
             <Typography
               variant="h5"
               noWrap
@@ -109,6 +112,7 @@ function CreateNFT(props) {
               href=""
               sx={{
                 mr: 2,
+                py: 2,
                 display: { xs: "flex", md: "none" },
                 flexGrow: 1,
                 fontFamily: "monospace",
@@ -118,7 +122,7 @@ function CreateNFT(props) {
                 textDecoration: "none",
               }}
             >
-              LOGO
+              <img src={logo} alt="" srcset="" />
             </Typography>
             <Box
               sx={{
@@ -191,7 +195,7 @@ function CreateNFT(props) {
       <br />
       <br />
       <Container maxWidth="sm">
-        <h1>Create NFT Collectibles</h1>
+        {/* <h1>Create NFT Collectibles</h1> */}
         <Box sx={{ width: "100%", typography: "body1" }}>
           <TabContext value={value}>
             <Box
@@ -221,6 +225,8 @@ function CreateNFT(props) {
                 file={file}
                 setFile={setFile}
                 setdesc={setdesc}
+                price={price}
+                setprice={setprice}
               />
             </TabPanel>
             <TabPanel value="2">

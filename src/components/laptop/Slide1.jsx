@@ -36,12 +36,14 @@ function Slide1() {
                 >
                   Register
                 </button>
-                <button
-                  class="border-2 border-[rgba(255, 255, 255, 0.5)] text-white 
+                <a href="https://drive.google.com/file/d/1jqvx-wLFYmU2tRj_BXL5wcBec6zGed_l/view">
+                  <button
+                    class="border-2 border-[rgba(255, 255, 255, 0.5)] text-white 
                 font-bold py-2 px-6  ml-2 text-sm font-400 rounded-lg"
-                >
-                  Whitepaper
-                </button>
+                  >
+                    Pitchdeck
+                  </button>
+                </a>
               </div>
             </div>
           </div>

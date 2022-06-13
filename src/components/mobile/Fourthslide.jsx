@@ -58,7 +58,7 @@ function Fourthslide() {
                 <span className="text-[#7BD0FF] text-[16px]">3%</span> Audit
               </div>
               <div className="w-3/5 text-[20px]">
-                <span className="text-[#1F93FF] text-[16px]">22%</span>{" "}
+                <span className="text-[#1F93FF] text-[16px]">20%</span>{" "}
                 Fundraising
               </div>
             </div>
@@ -67,7 +67,7 @@ function Fourthslide() {
                 <span className="text-[#A139F3] text-[16px]">5%</span> Liquidity
               </div>
               <div className="w-3/5 text-[20px]">
-                <span className="text-[#EF39F3] text-[16px]">5%</span> Marketing
+                <span className="text-[#EF39F3] text-[16px]">7%</span> Marketing
               </div>
             </div>
             <div className="flex my-4 justify-between">

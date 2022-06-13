@@ -26,18 +26,22 @@ function Slide6() {
               srcset=""
               className="m-2 max-h-[80px] my-auto"
             />
-            <img
-              src={tele}
-              alt=""
-              srcset=""
-              className="m-2 max-h-[80px] my-auto"
-            />
-            <img
-              src={twi}
-              alt=""
-              srcset=""
-              className="m-2 max-h-[80px] my-auto"
-            />
+            <a href="https://t.me/Kudoszone">
+              <img
+                src={tele}
+                alt=""
+                srcset=""
+                className="m-2 max-h-[80px] my-auto"
+              />
+            </a>
+            <a href="https://twitter.com/KUDOSZONEHUB">
+              <img
+                src={twi}
+                alt=""
+                srcset=""
+                className="m-2 max-h-[80px] my-auto"
+              />
+            </a>
             <img
               src={ins}
               alt=""

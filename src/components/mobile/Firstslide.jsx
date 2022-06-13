@@ -81,17 +81,19 @@ function Firstslide({ setWalletAddress, walletAddress }) {
                 : "Connect"}
             </button> */}
             {/* <br /> */}
-            <button
-              class="text-white 
+            <a href="https://drive.google.com/file/d/1jqvx-wLFYmU2tRj_BXL5wcBec6zGed_l/view">
+              <button
+                class="text-white 
                  py-2 my-2 px-6 text-[20px] font-400 rounded-lg w-[180px] mx-auto border-b-8 border-[#3E2BB7]"
-              style={{
-                background:
-                  "linear-gradient(95.71deg, rgba(255, 188, 204, 0.7) 2.77%, rgba(96, 107, 255, 0.231) 99.19%)",
-                borderRadius: "25px",
-              }}
-            >
-              Whitepaper
-            </button>
+                style={{
+                  background:
+                    "linear-gradient(95.71deg, rgba(255, 188, 204, 0.7) 2.77%, rgba(96, 107, 255, 0.231) 99.19%)",
+                  borderRadius: "25px",
+                }}
+              >
+                Pitchdeck
+              </button>
+            </a>
           </div>
         </div>
       </div>

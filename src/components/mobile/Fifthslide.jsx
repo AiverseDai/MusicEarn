@@ -50,8 +50,17 @@ function Fifthslide() {
             srcset=""
             className="p-3 w-[70px] my-auto"
           /> */}
-          <img src={tele} alt="" srcset="" className="p-3 w-[120px] my-auto" />
-          <img src={twi} alt="" srcset="" className="p-3 w-[120px] my-auto" />
+          <a href="https://t.me/Kudoszone">
+            <img
+              src={tele}
+              alt=""
+              srcset=""
+              className="p-3 w-[120px] my-auto"
+            />
+          </a>
+          <a href="https://twitter.com/KUDOSZONEHUB">
+            <img src={twi} alt="" srcset="" className="p-3 w-[120px] my-auto" />
+          </a>
           {/* <img src={ins} alt="" srcset="" className="p-3 w-[70px] my-auto" /> */}
           {/* <img src={fac} alt="" srcset="" className="p-3 w-[70px] my-auto" /> */}
         </div>

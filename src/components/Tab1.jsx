@@ -16,6 +16,8 @@ function Tab1({
   setdesc,
   file,
   setFile,
+  price,
+  setprice,
 }) {
   const providerOptions = {
     metmask: {
@@ -28,6 +30,7 @@ function Tab1({
   const [focus1, setfocus1] = useState(false);
   const [focus2, setfocus2] = useState(false);
   const [focus3, setfocus3] = useState(false);
+  const [focus4, setfocus4] = useState(false);
   const web3Modal = new Web3Modal({
     network: "rinkeby",
     // theme: "dark",
@@ -60,7 +63,9 @@ function Tab1({
     <div>
       {walletAddress ? (
         <>
-          <Typography>Wallet connected. Address : {walletAddress}</Typography>
+          <Typography style={{ wordWrap: "break-word" }}>
+            Wallet connected. Address :<br /> {walletAddress}
+          </Typography>
         </>
       ) : (
         <Button color="success" variant="outlined" onClick={connectWallet}>
@@ -119,6 +124,7 @@ function Tab1({
           id="standard-multiline-static"
           label="Collection description"
           multiline
+          required
           rows={4}
           sx={{ width: "100%" }}
           variant="outlined"
@@ -135,7 +141,21 @@ function Tab1({
         />
         <br />
         <br />
-        {walletAddress && collectioname && desc ? (
+        <TextField
+          label="Price in dollars"
+          id="filled-size-normal"
+          placeholder="In dollars"
+          variant="outlined"
+          sx={{ width: "100%" }}
+          value={price}
+          onFocus={() => setfocus4(true)}
+          onBlur={() => setfocus4(false)}
+          onChange={(e) => setprice(e.target.value)}
+          helperText={focus4 ? `Price per NFT in dollars` : ""}
+        />
+        <br />
+        <br />
+        {walletAddress && collectioname && desc && price ? (
           <Button
             type="submit"
             color="error"

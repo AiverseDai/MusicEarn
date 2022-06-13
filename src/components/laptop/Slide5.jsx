@@ -45,7 +45,7 @@ function Slide5() {
               class="bg-[#FC74D0] text-white text-sm
                  font-bold py-2 px-6  mr-2 font-400 rounded-lg my-2"
             >
-              Marketing - 5%
+              Marketing - 7%
             </button>
             <button
               class="bg-[#FC74D0] text-white text-sm
@@ -57,7 +57,7 @@ function Slide5() {
               class="bg-[#FC74D0] text-white text-sm
                  font-bold py-2 px-6  mr-2 font-400 rounded-lg my-2"
             >
-              Fundraising - 22%
+              Fundraising - 20%
             </button>
           </div>
         </div>

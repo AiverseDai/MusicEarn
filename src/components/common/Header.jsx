@@ -58,7 +58,7 @@ function Header({ setWalletAddress, walletAddress }) {
             to="/createnftcollection"
             className="mx-2 font-bold tracking-wider font-robo my-auto cursor-pointer"
           >
-            Staking
+            Account
           </Link>
         </div>
         {/* <div> */}
