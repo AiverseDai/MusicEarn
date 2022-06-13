@@ -35,7 +35,7 @@ function Header({ setWalletAddress, walletAddress }) {
     <div className="font-robo h-[5vh] flex fixed mr-[1vw] mt-[2vh] mb-[3vh] ml-[5vw]  z-[100000000] p-4 w-[94vw]">
       <div className="w-2/5 invisible">Hello</div>
       <div className="w-1/2 flex justify-between">
-        <div className="flex  text-[#6F6F6F]">
+        <div className="flex  text-[#6F6F6F] invisible">
           <Link
             to="/createnftcollection"
             className="mx-2 font-bold tracking-wider font-robo my-auto cursor-pointer"
